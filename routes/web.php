@@ -17,6 +17,6 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    $nama = 'Hanindita Satrio Hutomo (Hash)';
+    $nama = 'Hanindita Satrio Hutomo';
     return view('about',['nama'=>$nama]);
 });
